@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+header{
+    background-color: #303030;
+    height: 250px;
+    color: white;
+    height: 475px;
+
+}
+header h1 {
+    padding-top: 4em;
+}
+header p {
+    font-family: Inter;
+    font-size: 24px;
+    margin-left: 10em;
+}
+.title {
+    margin-left: 4em;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    justify-content:  space-between;
+    text-align: center;
+    
+}
+nav h1 {
+    display: flex;
+    margin-right: 2.5em;
+}
+#sub {
+    display: flex;
+}
+#sub p{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    margin-left: 13.5em;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+.p11 {
+padding-left: 10em;
+}
+.number {
+    display: flex;
+    margin-top: 1.5em;
+    margin-left: 5em;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+main {
+    display: grid;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+main article {
+    font-family: Inter;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    display: grid;    
+    gap: 2em;
+    margin-top: 9em;
+    margin-left: 0em;
+    margin-bottom: 10em;
+}
+#img {
+    width: 450px; 
+    height: 800px;
+    margin-left: 29em;
+    margin-top: -18em;
+    margin-bottom: 3em;
+}
+.line {
+    border: 1px solid grey;
+    margin-top: 4em;
+    filter: blur(5px);
+}
+form {
+    margin-top: -10em;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 5em;
+    justify-content: center;
+    background-color: #303030;
+}
+form h1 {
+    margin-top: 2em;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+form input {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 22pt;
+    padding-left: 15px;
+    color: #303030;
+}
+form input::placeholder {
+    padding-left: 1.5em;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+form button {
+    font-family: inter;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: white;
+    font-size: 30px;
+    margin-left: 3.5em;
+    margin-bottom: 5em;
+}
+form button:hover {
+    background-color: #e49534d3;
+}
